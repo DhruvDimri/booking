@@ -1,0 +1,26 @@
+.trending2Container{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.destination{
+    font-size: 23px;
+    font-weight: 800;
+    padding-left: 13px;
+    padding-top: 25px;
+    letter-spacing: 0.5px;
+}
+.popular{
+    padding-left: 13px;
+    padding-top: 3px;
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+.img6 img{
+    border-radius: 10px;
+}
+.same{
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 6px;
+}

@@ -1,0 +1,26 @@
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+}
+.copy{
+    padding-top: 46px;
+    padding-left: 175px;
+    font-size: 13px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 13px;
+}
+.footImage{
+    margin-top: 30px;
+}
+.footImage img{
+    padding: 0 40px;
+}
+.footer2Container{
+    padding-bottom: 20px;
+}
