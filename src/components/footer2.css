@@ -24,3 +24,27 @@
 .footer2Container{
     padding-bottom: 20px;
 }
+
+
+@media screen and (max-width:431px) {
+    .col4, .col5{
+        display: none;
+    }
+    .copy{
+        padding-top: 46px;
+        padding-left: 45px;
+        font-size: 13px;
+    }
+    .footText{
+        padding-left: 15px;
+        text-align: center;
+    }
+    .footImage{
+        display: flex;
+    }
+    .footImage div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

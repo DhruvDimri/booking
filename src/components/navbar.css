@@ -51,7 +51,7 @@
    
 }.order{
     border: 1px solid white;
-    background-color:rgba(255, 255, 255, 0.434)
+    background-color:rgba(255, 255, 255, 0.434);
 }
 .stayContainer{
     color: white;
@@ -61,7 +61,7 @@
     
 }
 .flightContainer{
-    
+                  
     color: white;
 }
 .carContainer{
@@ -81,4 +81,56 @@
 }
 .link{
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navCont1{
+        padding-left: 75px;
+    }
+    .navButtons{
+        padding-right: 55px;
+    }
+    .navContainer2{
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width:431px) {
+    .navCont1{
+        padding-left: 35px;
+    }
+    .navButtons{
+        padding-right: 15px;
+    }
+    .navButtons button{
+    margin: 0 3px;
+    }
+    .navContainer2{
+        width: 100%;
+        padding-left: 2px;
+        margin-top: 25px;
+    }
+    .navContainer2 .border{
+        border-radius: 40px;
+        padding: 5px 5px;
+    }
+    .stayContainer{
+        color: white;
+        margin-right: 5px;
+        display: flex;
+        gap: 5px;
+        
+    }
+    .attractContainer{
+        color: white;
+        margin: 0 0 0 5px;
+        display: flex;
+        gap: 5px;
+    }
+    .navContainer2 .same{
+        margin: 0 5px;
+        display: flex;
+        gap: 5px;
+    }
 }

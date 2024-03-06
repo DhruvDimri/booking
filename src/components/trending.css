@@ -92,3 +92,39 @@
 .img5 img{
     border-radius: 10px;
 }
+
+
+
+@media screen and (max-width:1000px) {
+   .image1, .image2{
+    width: 380px;
+   }
+   .image3, .image4, .image5{
+    width: 250px;
+   }
+}
+
+@media screen and (max-width:431px) {
+    .imgContainer{
+        display: block;
+        text-align: center;
+         
+    }
+    .flag, .flag1{
+        position: absolute;
+        left: 32px;
+        top: 19px;
+    }
+    .imgContainer1{
+        display: block;
+        text-align: center;
+    }
+    .image3{
+        width: 380px;
+    }
+    .flag2, .flag3, .flag4{
+        position: absolute;
+        left: 32px;
+        top: 19px;
+    }
+}

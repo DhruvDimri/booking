@@ -41,3 +41,15 @@
     font-weight: 700;
     padding-left: 6px;
 }
+
+
+@media screen and (max-width:1000px) {
+    .img{
+        width: 191px;
+    }
+}
+@media screen and (max-width:431px) {
+    .img{
+        width: 105px;
+    }
+}

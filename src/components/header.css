@@ -7,6 +7,7 @@
     width: 100%;
     max-width: 1100px;
     margin: auto;
+    height: fit-content;
 }
 .headerMainContainer{
     background-color: blue;
@@ -60,7 +61,6 @@
     border-radius: 7px;
     padding-top: 7px;
     padding-left: 7px;
-    
 }
 
 .stay input{
@@ -86,13 +86,11 @@
 }
 .checkin i{
 padding-left: 3px;
+font-size: 30px;
 }
 .checkin span{
     font-size: 17px;
     padding-left: 6px;
-}
-.checkin i{
-    font-size: 30px;
 }
 .room{
 width: 317.9633px;
@@ -181,4 +179,106 @@ padding-left: 12px;
     color: red;
     border: 2px solid red;
    
+}
+
+
+@media screen and (max-width:1000px) {
+    .stay input{
+        font-size: 13px;
+        padding: 4px;
+       text-decoration: none;
+      border: none;
+      outline: none;
+    }
+    .checkin i{
+        padding-left: 2px;
+        font-size: 28px;
+        }
+        .checkin span{
+            font-size: 14px;
+            padding-left: 2px;
+        }
+        .room i{
+            font-size: 28px;
+        }
+        .room span{
+            font-size: 13px;
+        }
+        .text{
+            padding-left: 25px;
+        }
+}
+
+
+@media screen and (max-width:431px) {
+    .span{
+        padding-left: 5px;
+    }
+    .selection{
+        width: 100%;
+        max-width: 1100px;
+        background-color: white;
+        display: block;
+        border-radius: 0px;
+        height: fit-content;
+        position: static;
+        bottom: 0px;
+        
+    }  
+    .stay{
+        width: 100%;
+        border-right:4px solid rgb(244, 213, 13) ;
+        border-left:4px solid rgb(244, 213, 13)  ;
+        border-top: 4px solid rgb(244, 213, 13) ;
+        border-bottom: 2px solid rgb(244, 213, 13) ;
+       
+    }
+    .checkin{
+        width: 100%;
+         border-right:4px solid rgb(244, 213, 13) ;
+         border-left:4px solid rgb(244, 213, 13)  ;
+         border-top: 2px solid rgb(244, 213, 13) ;
+         border-bottom: 2px solid rgb(244, 213, 13) ;
+         border-radius: 7px;
+         background-color: white;
+         padding-top: 7px;
+         padding-left: 7px;
+     }
+     .room{
+        width: 100%;
+        border-radius: 7px;
+        border-right:4px solid rgb(244, 213, 13) ;
+        border-left:4px solid rgb(244, 213, 13)  ;
+        border-top: 2px solid rgb(244, 213, 13) ;
+        border-bottom: 4px solid rgb(244, 213, 13) ;
+        background-color: white;
+        position: relative;
+        padding-top: 7px;
+         padding-left: 7px;
+        }
+        .button button{
+            width: 50%;
+            padding: 19px 40px;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: rgb(109, 218, 254);
+            border-right:4px solid rgb(244, 213, 13) ;
+            border-left:4px solid rgb(244, 213, 13)  ;
+            border-top: 0px solid rgb(244, 213, 13) ;
+            border-bottom: 4px solid rgb(244, 213, 13) ;
+            color: white;
+            border-radius: 7px;
+        }
+        .button{
+            text-align: center;
+        }
+        .stay input{
+            font-size: 25px;
+        }
+        .checkin span{
+            font-size: 25px;
+        }
+        .room span{
+            font-size: 25px;
+        }
 }

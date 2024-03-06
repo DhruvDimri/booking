@@ -59,14 +59,18 @@ const Footer2 = () => {
    </div>
    <div className="copy">Copyright &copy; 1996-2024 Booking.com <sup>TM</sup>.All rights reserved.</div>
    <div className="foot">
-    <div>Booking.com is part of Booking Holdings Inc, the world leader in online travel and related services.</div>
+    <div className='footText'>Booking.com is part of Booking Holdings Inc, the world leader in online travel and related services.</div>
     <div className="footImage">
+        <div>
         <img src={book} alt="sorry" />
         <img src={price} alt="sorry" />
         <img src={kayak} alt="sorry" />
+        </div>
+        <div>
         <img src={agoda} alt="sorry" />
         <img src={rent} alt="sorry" />
         <img src={open} alt="sorry" />
+        </div>
     </div>
    </div>
     </div>
