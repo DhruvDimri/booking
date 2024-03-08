@@ -9,7 +9,7 @@ import open from './Images/open.png'
 
 const Footer2 = () => {
   return (
-    <div className='footer2Container'>
+    <div className='footer2Container footer21Container'>
    <div className="category">
     <div className="col1">
         <ul>

@@ -18,6 +18,7 @@ const location = useLocation();
             </div>}
       </div>
 
+
       <div className="navContainer2">
         <div className= { location.pathname === "/" ? "stayContainer  border order" : "stayContainer  border"}>
         <i className="bi bi-suitcase-fill"></i>
