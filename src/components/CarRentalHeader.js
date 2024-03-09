@@ -1,13 +1,14 @@
 import React from "react";
 import "./carrentalheader.css";
 import Footer2 from "./Footer2"
+import Footer from "./Footer"
 
 const CarRentalHeader = () => {
   return (
     <>
     <div className="rentalContainer0">
       <div className="rentalContainer">
-        <p>Car hire for any kind of trip</p>
+        <p>Car hire for any kind of trip <i class="bi bi-car-front"></i></p>
         <span>
           Great deals at great prices, from the biggest car hire companies
         </span>
@@ -174,6 +175,8 @@ const CarRentalHeader = () => {
 
         </div>
       </div>
+
+      <Footer/>
 
       <Footer2/>
     </>
