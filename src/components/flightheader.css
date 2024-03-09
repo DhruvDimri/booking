@@ -6,6 +6,7 @@
 .flightHeaderContainer{
    width: 100%;
    background-color: rgb(222, 219, 219);
+   height: 270px;
 }
 .flightHeaderContainer1{
     width: 100%;
@@ -224,4 +225,76 @@
 }
 .footer21Container{
     margin-top: 135px;
+}
+
+@media screen and (max-width: 1000px) {
+    .similiar{
+        width: 190px;
+       height: 190px;
+       border-radius: 15px;
+    }
+    .srchIcon{
+        margin-left: 15px;
+    }
+    .flexibility{
+        margin-right: 15px;
+    }
+    .takeoff input{
+    font-size: 13px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    }
+    .landing input{
+        font-size: 13px;
+        padding: 0px;
+        border: none;
+        outline: none;
+    }
+    .takeoff i{
+        font-size: 18px;
+    }
+    .landing i{
+        font-size: 18px;
+    }
+    .date i{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .traveller i{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .date span{
+        font-size: 15px;
+        padding-left: 8px;
+        border: none;
+        outline: none;
+    }
+    .traveller span{
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .date{
+        width: 245px;
+    }
+    .traveller{
+        width: 210px;
+    }
+    .popularr, .deals, .places{
+        margin-left: 10px;
+    }
+    .tickets{
+        margin-left: 8px;
+    }
+    .compare, .discover{
+        margin-left: 10px;
+    }
+    .input{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:431px) {
+   
 }

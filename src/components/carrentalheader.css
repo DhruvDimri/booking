@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bi-people-fill{
+    font-size: 55px;
+    margin-right: 30px;
+}
+.bi-calendar-week{
+    font-size: 55px;
+    margin-right: 30px;
+}
+.bi-car-front{
+    font-size: 60px;
+    margin-right: 30px;
+}
+.rentalContainer0{
+    width: 100%;
+    background-color: blue;
+}
+.rentalContainer{
+width: 100%;
+max-width: 1100px;
+margin: auto;
+background-color: blue;
+padding-top: 55px;
+padding-bottom: 85px;
+}
+.rentalContainer p{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.rentalContainer span{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.force{
+ 
+    width: 100%;
+    max-width: 1100px;
+    margin: 55px auto;
+    text-align: center;
+}
+.force p{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.force span{
+    font-size: 18px;
+    font-weight: 500;
+ 
+}
+.rentalContainer1{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 65px;
+    
+}
+#accordionExample{
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px grey ;
+}
+

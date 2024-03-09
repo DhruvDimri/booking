@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attContainer{
+    background-color:blue;
+    width: 100%;
+}
+.attContainer1{
+    background-color: blue;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+.attContainer1 p{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.attContainer1 span{
+    font-size: 25px;
+    color: white;
+}
+.attContainer2{
+    width: 100%;
+    max-width: 1100px;
+
+    margin: auto;
+}
+.attContainer2 p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.near1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.near11{
+    width: 362px;
+    position: relative;
+   
+}
+.near11 span{
+position: absolute;
+left: 15px;
+bottom: 35px;
+color: white;
+font-size: 20px;
+font-weight: 700;
+text-shadow: 1px 1px 5px black;
+}
+.puducherry{
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+}
+.banglore{
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+}
+.udaipur{
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+}
+.delhi{
+    width: 350px;
+    height: 210px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 10px;
+}
+.jaipur{
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+}
+.near2{
+    display: flex;
+}
+.near12{
+    width: 362px;
+    position: relative;
+}
+.near12 span{
+        position: absolute;
+        left: 15px;
+        bottom: 35px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: 1px 1px 5px black;
+}
+.near13{
+    margin-right:8px;
+}
+.attContainer3{
+    height: 100px;
+    background-color: aquamarine;
+}
+.attContainer4{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+ 
+}
+.attContainer4 p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.near1{
+    margin-top: 15px;
+}
+.flightHeaderContainer31{
+    margin-bottom: 55px;
+    background-color: darkseagreen;
+}
+.bi-signpost-2{
+    font-size: 52px;
+    margin-right: 30px;
+}
+.bi-headset{
+    font-size: 55px;
+    margin-right: 30px;
+}
+.bi-calendar-week{
+    font-size: 50px;
+    margin-right: 30px;
+}

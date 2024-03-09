@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
+import AttractContent from './AttractContent'
+
 
 const Attractions = () => {
   return (
-    <div>
+    <>
         <Navbar/>
-    </div>
+        <AttractContent/>
+    </>
   )
 }
 

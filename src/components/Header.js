@@ -69,7 +69,7 @@ const Header = () => {
     <div className="headerMainContainer">
       <div className="headerContainer">
         <div className={location.pathname === "/list" ? "next" : "text"}>
-          <div className="mainheading"> Find your next stay</div>
+        <div className="mainheading"> Find your next stay</div>
           <span className="span">
             Search low prices on hotels, homes and much more...
           </span>

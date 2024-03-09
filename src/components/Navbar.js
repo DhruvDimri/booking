@@ -20,7 +20,7 @@ const location = useLocation();
 
 
       <div className="navContainer2">
-        <div className= { location.pathname === "/" ? "stayContainer  border order" : "stayContainer  border"}>
+        <div className= {location.pathname === "/" ? "stayContainer  border order" : "stayContainer  border"}>
         <i className="bi bi-suitcase-fill"></i>
         <Link className="link" to="/">
         <span className="font">Stays</span>
