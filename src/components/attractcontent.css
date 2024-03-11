@@ -27,12 +27,12 @@
 .attContainer2{
     width: 100%;
     max-width: 1100px;
-
     margin: auto;
 }
 .attContainer2 p{
     font-size: 25px;
     font-weight: 700;
+    padding-top: 15px;
 }
 .near1{
     display: flex;
