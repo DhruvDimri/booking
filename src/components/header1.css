@@ -12,6 +12,6 @@
 .wrapper{
     display: flex;
     position: absolute;
-    top: -35px;
+    top: -15px;
     background-color: rgb(244, 213, 13) ;
 }

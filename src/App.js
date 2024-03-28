@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Flight from "./components/Flight";
 import CarRentals from "./components/CarRentals";
 import Attractions from "./components/Attractions";
+import FlightResult from "./components/FlightResult";
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Stays/>} />
-      <Route path="list" element={<List/>} />
+      <Route path="/list" element={<List/>} />
       <Route path="/flight" element={<Flight/>}></Route>
+      <Route path="/flight-result" element={<FlightResult/>} />
       <Route path="/carrentals" element={<CarRentals/>}></Route>
       <Route path="/attractions" element={<Attractions/>}></Route>
       </Routes>

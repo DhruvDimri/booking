@@ -77,12 +77,18 @@
     border-left: 2px solid rgb(244, 213, 13) ;
     background-color: white;
     border-radius: 7px;
+    position: relative;
+}
+.passengerRange{
+    position: absolute;
+    top: 53px;
+    left: 0px;
+   
 }
 .date span{
-    font-size: 17px;
-    padding-left: 17px;
-    border: none;
-    outline: none;
+    font-size: 16px;
+    padding: 12px;
+   
 }
 .date i{
     font-size: 24px;
@@ -98,12 +104,16 @@
     border-left: 2px solid rgb(244, 213, 13) ;
     background-color: white;
     border-radius: 7px;
+    position: relative;
+}
+.passBox{
+    position: absolute;
+    background-color: white;
+    top: 53px;
 }
 .traveller span{
-    font-size: 17px;
-    padding-left: 10px;
-    border: none;
-    outline: none;
+    font-size: 16px;
+    padding: 12px;
 }
 .traveller i{
     font-size: 26px;

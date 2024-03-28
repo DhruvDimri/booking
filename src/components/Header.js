@@ -100,7 +100,7 @@ const Header = () => {
           <div className="room">
             <i className="bi bi-person"></i>
             <span onClick={handleRoom}>
-              {adult}adult - {children} children - {rooms} room
+              {adult} adult - {children} children - {rooms} room
             </span>
             {room && (
               <div className="box">
