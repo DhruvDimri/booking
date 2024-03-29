@@ -53,13 +53,15 @@
 }
 .bi-backpack2-fill{
     margin-right: 5px;
-    
+    color: green;
 }
 .bi-suitcase-lg-fill{
     margin: 0 5px;
+    color: chocolate;
 }
 .bi-suitcase2-fill{
     margin-right: 15px;
+    color: darkred;
 }
 .details{
     width: 270px;
