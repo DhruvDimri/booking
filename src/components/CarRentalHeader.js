@@ -1,18 +1,114 @@
-import React from "react";
+import React, {useState} from "react";
 import "./carrentalheader.css";
 import Footer2 from "./Footer2";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
+// import "react-date-range/dist/styles.css"; // main style file
+// import "react-date-range/dist/theme/default.css"; // theme css file
+// import { DateRange } from "react-date-range";
+// import { format } from "date-fns";
 
-const CarRentalHeader = () => {
+ const CarRentalHeader = () => {
+//   const [date, setDate] = useState([
+//     {
+//       startDate: new Date(),
+//       endDate: new Date(),
+//       key: "selection",
+//     },
+//   ]);
+
+
+  // const [from, setFrom] = useState("");
+  // const [to, setTo] = useState("");
+  // const [passenger, setPassenger] = useState(false);
+  // const navigate2 = useNavigate();
+
+  // function handlePassenger() {
+  //   setPassenger(!passenger);
+  // }
+
+  // function handleSearch() {
+  //   if (from === "") {
+  //     alert("Please add city");
+  //   } else if (to === "") {
+  //     alert("Please add city");
+  //   } else {
+  //     navigate2("/flight-result", {
+  //       state: { date,  from, to },
+  //     });
+  //   }
+  // }
+
+  // function handleFrom(e) {
+  //   setFrom(e.target.value);
+  // }
+  // function handleTo(e) {
+  //   setTo(e.target.value);
+  // }
+
+  
   return (
     <>
       <div className="rentalContainer0">
         <div className="rentalContainer">
           <p>
-            Car hire for any kind of trip <i class="bi bi-car-front"></i>
+            Car hire for any kind of trip <i className="bi bi-car-front"></i>
           </p>
           <span>
-            Great deals at great prices, from the biggest car hire companies
+            Great deals at great prices, from the biggest car hire companies <br />
+
+            {/* <div className="choose">
+            <div className="takeoff">
+              <i className="bi bi-airplane-engines-fill"></i>
+              <input
+                type="text"
+                placeholder="Where from?"
+                onChange={handleFrom}
+              ></input>
+            </div>
+
+            <div className="landing">
+              <i className="bi bi-airplane-engines-fill"></i>
+              <input
+                type="text"
+                placeholder="Where to?"
+                onChange={handleTo}
+              ></input>
+            </div>
+
+            <div className="date">
+              <i className="bi bi-calendar3"></i>
+              <span onClick={handlePassenger}>
+                {`${format(date[0].startDate, "dd/MM/yyyy")} - ${format(
+                  date[0].endDate,
+                  "dd/MM/yyyy"
+                )}`}
+              </span>
+
+              {passenger && (
+                <DateRange
+                  className="passengerRange"
+                  editableDateInputs={true}
+                  onChange={(item) => setDate([item.selection])}
+                  moveRangeOnFirstSelection={false}
+                  ranges={date}
+                />
+              )}
+            </div>
+
+            <div className="traveller">
+              <i className="bi bi-person"></i>
+              <span
+              >hello</span>
+            </div>
+
+            <div className="buton">
+              <button className="search" onClick={handleSearch}>
+                Search
+              </button>
+            </div>
+            </div> */}
+            
           </span>
         </div>
       </div>
@@ -23,7 +119,7 @@ const CarRentalHeader = () => {
 
       <div className="flightHeaderContainer3">
         <div className="srchIcon">
-          <i class="bi bi-people-fill"></i>
+          <i className="bi bi-people-fill"></i>
           <div className="srchContainer">
             <span className="heading">Search a huge selection</span>
             <br />
@@ -35,7 +131,7 @@ const CarRentalHeader = () => {
         </div>
 
         <div className="money">
-          <i class="bi bi-calendar-week"></i>
+          <i className="bi bi-calendar-week"></i>
           <div className="moneyContainer">
             <span className="heading">Pay no hidden fees</span>
             <br />
@@ -46,7 +142,7 @@ const CarRentalHeader = () => {
         </div>
 
         <div className="flexibility">
-          <i class="bi bi-car-front"></i>
+          <i className="bi bi-car-front"></i>
           <div className="flexibilityContainer">
             <span className="heading">Get more flexibility</span>
             <br />
@@ -58,11 +154,11 @@ const CarRentalHeader = () => {
       </div>
 
       <div className="rentalContainer1">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button "
+                className="accordion-button "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -74,10 +170,10 @@ const CarRentalHeader = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Laborum sunt sint temporibus, optio ex mollitia sequi est magnam
                 animi rerum ratione facilis amet eaque deserunt labore nulla
@@ -94,10 +190,10 @@ const CarRentalHeader = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -109,10 +205,10 @@ const CarRentalHeader = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
                 accusamus, vel iure quae tempore modi corrupti ullam repellat
                 repudiandae deserunt, est illum facilis. Dolores, molestias rem
@@ -128,10 +224,10 @@ const CarRentalHeader = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -143,10 +239,10 @@ const CarRentalHeader = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
                 ex aliquid temporibus cupiditate. Tempore alias quae distinctio
                 nesciunt explicabo minus laborum natus odit nobis vero neque
@@ -163,10 +259,10 @@ const CarRentalHeader = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -178,10 +274,10 @@ const CarRentalHeader = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum eius aliquam veniam sequi odio at, accusantium nisi
                 ut amet reprehenderit laboriosam dolores consectetur. Nemo minus
@@ -197,10 +293,10 @@ const CarRentalHeader = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -212,10 +308,10 @@ const CarRentalHeader = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
                 ex ipsam dolores numquam ullam aspernatur nulla cupiditate quia
                 consequuntur. At non repellat aspernatur esse inventore quos

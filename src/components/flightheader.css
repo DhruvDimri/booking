@@ -28,9 +28,12 @@
     background-color:  rgb(244, 213, 13);
     border-radius: 7px;
     margin-top: 25px;
+    width: fit-content;
+    text-align: center;
+    margin: 25px auto;
 }
 .takeoff{
-    width: 250px;
+    width: 260px;
     padding-left: 4px;
     border-top: 4px solid rgb(244, 213, 13) ;
     border-bottom: 4px solid rgb(244, 213, 13) ;
@@ -49,7 +52,7 @@
     font-size: 24px;
 }
 .landing{
-    width: 250px;
+    width: 260px;
     padding-left: 4px;
     border-top: 4px solid rgb(244, 213, 13) ;
     border-bottom: 4px solid rgb(244, 213, 13) ;
@@ -68,7 +71,7 @@
     font-size: 24px;
 }
 .date{
-    width: 250px;
+    width: 260px;
     padding-top: 4px;
     padding-left: 5px;
     border-top: 4px solid rgb(244, 213, 13) ;
@@ -94,33 +97,16 @@
     font-size: 24px;
     margin-top: 35px;
 }
-.traveller{
-    width: 250px;
-    padding-top: 2px;
-    padding-left: 1px;
-    border-top: 4px solid rgb(244, 213, 13) ;
-    border-bottom: 4px solid rgb(244, 213, 13) ;
-    border-right: 2px solid rgb(244, 213, 13) ;
-    border-left: 2px solid rgb(244, 213, 13) ;
-    background-color: white;
-    border-radius: 7px;
-    position: relative;
-}
+
 .passBox{
     position: absolute;
     background-color: white;
     top: 53px;
 }
-.traveller span{
-    font-size: 16px;
-    padding: 12px;
-}
-.traveller i{
-    font-size: 26px;
-    margin-top: 35px;
-}
+
+
 .buton{
-    width: 100px;
+    width: 130px;
     border-top: 4px solid rgb(244, 213, 13) ;
     border-bottom: 4px solid rgb(244, 213, 13) ;
     border-right: 4px solid rgb(244, 213, 13) ;

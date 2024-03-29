@@ -71,4 +71,16 @@ padding-bottom: 85px;
 .footerContainer1{
     margin-top: 105px;
 }
+.selectDate{
+    width: 250px;
+    padding-top: 2px;
+    padding-left: 1px;
+    border-top: 4px solid rgb(244, 213, 13) ;
+    border-bottom: 4px solid rgb(244, 213, 13) ;
+    border-right: 2px solid rgb(244, 213, 13) ;
+    border-left: 2px solid rgb(244, 213, 13) ;
+    background-color: white;
+    border-radius: 7px;
+    position: relative;
+}
 
