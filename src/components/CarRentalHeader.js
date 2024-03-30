@@ -3,49 +3,49 @@ import "./carrentalheader.css";
 import Footer2 from "./Footer2";
 import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
-// import "react-date-range/dist/styles.css"; // main style file
-// import "react-date-range/dist/theme/default.css"; // theme css file
-// import { DateRange } from "react-date-range";
-// import { format } from "date-fns";
+import "react-date-range/dist/styles.css"; // main style file
+import "react-date-range/dist/theme/default.css"; // theme css file
+import { DateRange } from "react-date-range";
+import { format } from "date-fns";
+
+
 
  const CarRentalHeader = () => {
-//   const [date, setDate] = useState([
-//     {
-//       startDate: new Date(),
-//       endDate: new Date(),
-//       key: "selection",
-//     },
-//   ]);
 
+  const [date, setDate] = useState([
+    {
+      startDate: new Date(),
+      endDate: new Date(),
+      key: "selection",
+    },
+  ]);
 
-  // const [from, setFrom] = useState("");
-  // const [to, setTo] = useState("");
-  // const [passenger, setPassenger] = useState(false);
-  // const navigate2 = useNavigate();
+  const [from, setFrom] = useState("");
+  const [to, setTo] = useState("");
+  const [passenger, setPassenger] = useState(false);
+  const navigate3 = useNavigate();
+  
+  function handlePassenger() {
+    setPassenger(!passenger);
+  }
+  function handleSearch() {
+    if (from === "") {
+      alert("Please add pickup location");
+    } else if (to === "") {
+      alert("Please add drop location");
+    } else {
+      navigate3("/car-result", {
+        state: { date, from, to },
+      });
+    }
+  }
 
-  // function handlePassenger() {
-  //   setPassenger(!passenger);
-  // }
-
-  // function handleSearch() {
-  //   if (from === "") {
-  //     alert("Please add city");
-  //   } else if (to === "") {
-  //     alert("Please add city");
-  //   } else {
-  //     navigate2("/flight-result", {
-  //       state: { date,  from, to },
-  //     });
-  //   }
-  // }
-
-  // function handleFrom(e) {
-  //   setFrom(e.target.value);
-  // }
-  // function handleTo(e) {
-  //   setTo(e.target.value);
-  // }
-
+  function handleFrom(e) {
+    setFrom(e.target.value);
+  }
+  function handleTo(e) {
+    setTo(e.target.value);
+  }
   
   return (
     <>
@@ -57,26 +57,27 @@ import { useNavigate } from "react-router-dom";
           <span>
             Great deals at great prices, from the biggest car hire companies <br />
 
-            {/* <div className="choose">
-            <div className="takeoff">
-              <i className="bi bi-airplane-engines-fill"></i>
+            <div className="choose1">
+
+            <div className="takeoff1">
+            <i class="bi bi-car-front-fill"></i>
               <input
                 type="text"
-                placeholder="Where from?"
+                placeholder="Pickup location?"
                 onChange={handleFrom}
               ></input>
             </div>
 
-            <div className="landing">
-              <i className="bi bi-airplane-engines-fill"></i>
+            <div className="landing1">
+            <i class="bi bi-car-front-fill"></i>
               <input
                 type="text"
-                placeholder="Where to?"
+                placeholder="Drop location?"
                 onChange={handleTo}
               ></input>
             </div>
 
-            <div className="date">
+            <div className="date11">
               <i className="bi bi-calendar3"></i>
               <span onClick={handlePassenger}>
                 {`${format(date[0].startDate, "dd/MM/yyyy")} - ${format(
@@ -87,7 +88,7 @@ import { useNavigate } from "react-router-dom";
 
               {passenger && (
                 <DateRange
-                  className="passengerRange"
+                  className="passengerRange1"
                   editableDateInputs={true}
                   onChange={(item) => setDate([item.selection])}
                   moveRangeOnFirstSelection={false}
@@ -95,19 +96,12 @@ import { useNavigate } from "react-router-dom";
                 />
               )}
             </div>
-
-            <div className="traveller">
-              <i className="bi bi-person"></i>
-              <span
-              >hello</span>
-            </div>
-
-            <div className="buton">
+            <div className="buton1">
               <button className="search" onClick={handleSearch}>
                 Search
               </button>
             </div>
-            </div> */}
+          </div>
             
           </span>
         </div>

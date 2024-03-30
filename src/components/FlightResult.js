@@ -6,7 +6,7 @@ import { format } from "date-fns";
 
 const FlightResult = () => {
 const location = useLocation();
-console.log(location);
+
 
 function handleDetails(){
   alert("SORRY! doesn't work right now")

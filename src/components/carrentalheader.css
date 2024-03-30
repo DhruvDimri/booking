@@ -83,4 +83,94 @@ padding-bottom: 85px;
     border-radius: 7px;
     position: relative;
 }
+.choose1{
+    display: flex;
+    background-color:  rgb(244, 213, 13);
+    border-radius: 7px;
+    width: fit-content;
+    text-align: center;
+    margin: 45px auto 5px auto;
+}
+.takeoff1{
+    width: 260px;
+    padding-left: 4px;
+    border-top: 4px solid rgb(244, 213, 13) ;
+    border-bottom: 4px solid rgb(244, 213, 13) ;
+    border-right: 2px solid rgb(244, 213, 13) ;
+    border-left: 4px solid rgb(244, 213, 13) ;
+    background-color: white;
+   border-radius: 7px;
+}
+.takeoff1 input{
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+.bi-car-front-fill{
+    color: black;
+    font-size: 24px;
+}
+.landing1{
+    width: 260px;
+    padding-left: 4px;
+    border-top: 4px solid rgb(244, 213, 13) ;
+    border-bottom: 4px solid rgb(244, 213, 13) ;
+    border-right: 2px solid rgb(244, 213, 13) ;
+    border-left: 2px solid rgb(244, 213, 13) ;
+    border-radius: 7px;
+    background-color: white;
+}
+.landing1 input{
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+.date11{
+    width: 260px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border-top: 4px solid rgb(244, 213, 13) ;
+    border-bottom: 4px solid rgb(244, 213, 13) ;
+    border-right: 2px solid rgb(244, 213, 13) ;
+    border-left: 2px solid rgb(244, 213, 13) ;
+    background-color: white;
+    border-radius: 7px;
+    position: relative;
+    color: black;
+}
+.date11 span{
+    font-size: 16px;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+}
+.date11 i{
+    font-size: 24px;
+    margin-top: 35px;
+    color: black;
+}
+.passengerRange1{
+    position: absolute;
+    top: 53px;
+    left: 0px;
+   
+}
+.buton1{
+    width: 130px;
+    border-top: 4px solid rgb(244, 213, 13) ;
+    border-bottom: 4px solid rgb(244, 213, 13) ;
+    border-right: 4px solid rgb(244, 213, 13) ;
+    border-left: 2px solid rgb(244, 213, 13) ;
+    border-radius: 7px;
+}
+.buton1 button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(51, 201, 250);
+    border: none;
+    font-size: 18px;
+}
 

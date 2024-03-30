@@ -5,6 +5,7 @@ import Flight from "./components/Flight";
 import CarRentals from "./components/CarRentals";
 import Attractions from "./components/Attractions";
 import FlightResult from "./components/FlightResult";
+import CarResult from "./components/CarResult";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/flight" element={<Flight/>}></Route>
       <Route path="/flight-result" element={<FlightResult/>} />
       <Route path="/carrentals" element={<CarRentals/>}></Route>
+      <Route path="/car-result" element={<CarResult/>}></Route>
       <Route path="/attractions" element={<Attractions/>}></Route>
       </Routes>
      

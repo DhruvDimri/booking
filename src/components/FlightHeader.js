@@ -25,16 +25,12 @@ const FlightHeader = () => {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [passenger, setPassenger] = useState(false);
-  const [passRoom, setPassRoom] = useState(false);
-  const [adult, setAdult] = useState(2);
-  const [childs, setChilds] = useState(0);
-  const [rooms, setRooms] = useState(1);
+  // const [passRoom, setPassRoom] = useState(false);
+  // const [adult, setAdult] = useState(2);
+  // const [childs, setChilds] = useState(0);
+  // const [rooms, setRooms] = useState(1);
   const navigate2 = useNavigate();
-  //   const [multiple, setMultiple] = useState({
-  //     adult: 2,
-  //     childs: 3,
-  //     rooms: 0
-  //   })
+  
 
   
   
