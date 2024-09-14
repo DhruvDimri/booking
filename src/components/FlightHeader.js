@@ -123,6 +123,7 @@ const FlightHeader = () => {
                 />
               )}
             </div>
+            
             <div className="buton">
               <button className="search" onClick={handleSearch}>
                 Search

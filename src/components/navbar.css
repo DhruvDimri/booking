@@ -1,135 +1,132 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.navContainer{
-    background-color: blue;
-    width: 100%;
-    
+.navContainer {
+  background-color: blue;
+  width: 100%;
 }
-.navContainer1{
-    width: 100%;
-    background-color: blue;
-    max-width: 1100px;
-    margin:auto;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0px;
+.navContainer1 {
+  width: 100%;
+  background-color: blue;
+  max-width: 1100px;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 15px !important;
 }
 .navButtons button {
-    color: blue;
-    margin: 0 8px;
-    padding: 7px;
-    border: none;
-    font-size: 15px;
-    border-radius: 3px;
+  color: blue;
+  margin: 0 8px;
+  padding: 7px;
+  border: none;
+  font-size: 15px;
+  border-radius: 3px;
 }
-.navCont1{
-    color: white;
-    font-size: 25px;
-    font-weight: 700;
+.navCont1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
 }
-.navContainer2{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    margin-top: 5px;
-    padding-bottom: 40px;
-    display: flex;
-    background-color: blue;
+.navContainer2 {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 5px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: blue;
 }
-.navContainer2 .same{
-    margin: 0 35px;
-    display: flex;
-    gap: 10px;
-}
-.navContainer2 .border{
-    border-radius: 40px;
-    padding: 10px 15px;
-   
-}.order{
-    border: 1px solid white;
-    background-color:rgba(255, 255, 255, 0.434);
-}
-.stayContainer{
-    color: white;
-    margin-right: 35px;
+/* .same{
     display: flex;
     gap: 10px;
-    
+} */
+.border {
+  border-radius: 40px;
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px !important;
 }
-.flightContainer{
-                  
-    color: white;
+.order {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.434);
 }
-.carContainer{
-    color: white;
-    
+.stayContainer {
+  color: white;
+  padding: 10px 20px !important;
 }
-.attractContainer{
-    color: white;
-    margin: 0 0 0 35px;
-    display: flex;
-    gap: 10px;
+.flightContainer {
+  color: white;
+  padding: 10px 20px !important;
+  display: flex;
+  gap: 15px;
 }
-.font{
-    font-weight: 700;
-   color: white;
-    
+.carContainer {
+  color: white;
+  padding: 10px 20px !important;
 }
-.link{
-    text-decoration: none;
+.attractContainer {
+  color: white;
 }
-
+.font {
+  font-weight: 700;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1000px) {
-    .navCont1{
-        padding-left: 75px;
-    }
-    .navButtons{
-        padding-right: 55px;
-    }
-    .navContainer2{
-        padding-left: 25px;
-    }
+  .navCont1 {
+    padding-left: 75px;
+  }
+  .navButtons {
+    padding-right: 55px;
+  }
+  .navContainer2 {
+    padding-left: 25px;
+  }
 }
 
-@media screen and (max-width:431px) {
-    .navCont1{
-        padding-left: 35px;
-    }
-    .navButtons{
-        padding-right: 15px;
-    }
-    .navButtons button{
+@media screen and (max-width: 431px) {
+  .navCont1 {
+    padding-left: 35px;
+  }
+  .navButtons {
+    padding-right: 15px;
+  }
+  .navButtons button {
     margin: 0 3px;
-    }
-    .navContainer2{
-        width: 100%;
-        padding-left: 2px;
-        margin-top: 25px;
-    }
-    .navContainer2 .border{
-        border-radius: 40px;
-        padding: 5px 5px;
-    }
-    .stayContainer{
-        color: white;
-        margin-right: 5px;
-        display: flex;
-        gap: 5px;
-        
-    }
-    .attractContainer{
-        color: white;
-        margin: 0 0 0 5px;
-        display: flex;
-        gap: 5px;
-    }
-    .navContainer2 .same{
-        margin: 0 5px;
-        display: flex;
-        gap: 5px;
-    }
+  }
+  .navContainer2 {
+    width: 100%;
+    padding-left: 2px;
+    margin-top: 25px;
+  }
+  .navContainer2 .border {
+    border-radius: 40px;
+    padding: 5px 5px;
+  }
+  .stayContainer {
+    color: white;
+    margin-right: 5px;
+    display: flex;
+    gap: 5px;
+  }
+  .attractContainer {
+    color: white;
+    margin: 0 0 0 5px;
+    display: flex;
+    gap: 5px;
+  }
+  .navContainer2 .same {
+    margin: 0 5px;
+    display: flex;
+    gap: 5px;
+  }
 }

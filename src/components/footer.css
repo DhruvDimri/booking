@@ -21,6 +21,7 @@
 .subscribe{
     margin-top: 25px;
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
     border-radius: 15px;
     
@@ -31,6 +32,7 @@
    border-radius: 7px;
    border: none;
    font-size: 20px;
+   margin: auto;
 }
 .subscribe button{
 width: 175px;
@@ -40,6 +42,7 @@ border: none;
 font-size: 20px;
 color: white;
 background-color: rgb(4, 172, 228);
+margin: auto;
 }
 
 

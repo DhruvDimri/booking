@@ -50,7 +50,7 @@ const AttractContent = () => {
 
         <div className="flightHeaderContainer3 flightHeaderContainer31">
         <div className="srchIcon">
-        <i class="bi bi-signpost-2"></i>
+        <i className="bi bi-signpost-2"></i>
           <div className="srchContainer">
             <span className="heading">Explore top attractions</span>
             <br />
@@ -61,7 +61,7 @@ const AttractContent = () => {
         </div>
 
         <div className="money">
-          <i class="bi bi-calendar-week"></i>
+          <i className="bi bi-calendar-week"></i>
           <div className="moneyContainer">
             <span className="heading">Fast and flexible</span>
             <br />
@@ -72,7 +72,7 @@ const AttractContent = () => {
         </div>
 
         <div className="flexibility">
-        <i class="bi bi-headset"></i>
+        <i className="bi bi-headset"></i>
           <div className="flexibilityContainer">
             <span className="heading">Support when you need it </span>
             <br />

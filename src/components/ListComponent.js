@@ -19,7 +19,7 @@ const ListComponent = () => {
                     <div className="phela">
                         <div className="phela1">
                             <p>Resort</p>
-                            <h6>Kumaon Roop Resort Near Neem Karoli <br /> Temple <span><i className="bi bi-hand-thumbs-up-fill"></i><i className="bi bi-hand-index-thumb-fill"></i></span></h6>
+                            <h6>{location.state.destination} Roop Resort Near Neem Karoli <br /> Temple <span><i className="bi bi-hand-thumbs-up-fill"></i><i className="bi bi-hand-index-thumb-fill"></i></span></h6>
                             <a className='a1' href="/">{location.state.destination}</a> <a className='a2' href="/">Show on map</a><span>9.7 km from centre</span><br />
                             <button>Early 2024  Deal</button>
                         </div>
@@ -89,7 +89,7 @@ const ListComponent = () => {
                         </div>
                         <div className="phela2">
                             <div>Good <span>7.5</span></div>
-                            <p>Comfort 7.9</p>
+                            <p className='comfort'>Comfort 7.9</p>
                         </div>
                     </div>
                     <div className="dusra">

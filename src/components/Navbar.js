@@ -26,13 +26,13 @@ const location = useLocation();
         <span className="font">Stays</span>
         </Link>  
         </div>
-        <div className={location.pathname === "/flight" ? "flightContainer same border order" : "flightContainer same border"}>
+        <div className={location.pathname === "/flight" ? "flightContainer border order" : "flightContainer same border"}>
         <i className="bi bi-airplane-fill"></i>
         <Link className="link" to="/flight">
           <span className="font">Flights</span>
         </Link>
         </div>
-        <div className={location.pathname === "/carrentals" ? "carContainer same border order": "carContainer same border"}>
+        <div className={location.pathname === "/carrentals" ? "carContainer border order": "carContainer same border"}>
         <i className="bi bi-taxi-front-fill"></i>
         <Link className="link" to="/carrentals">
         <span className="font">Car Rentals</span>

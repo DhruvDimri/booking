@@ -6,7 +6,7 @@
 .propertyImage{
     display: flex;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
 }
 .propertyImage .img{
     border-radius: 10px;

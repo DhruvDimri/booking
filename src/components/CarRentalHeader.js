@@ -60,7 +60,7 @@ import { format } from "date-fns";
             <div className="choose1">
 
             <div className="takeoff1">
-            <i class="bi bi-car-front-fill"></i>
+            <i className="bi bi-car-front-fill"></i>
               <input
                 type="text"
                 placeholder="Pickup location?"
@@ -69,7 +69,7 @@ import { format } from "date-fns";
             </div>
 
             <div className="landing1">
-            <i class="bi bi-car-front-fill"></i>
+            <i className="bi bi-car-front-fill"></i>
               <input
                 type="text"
                 placeholder="Drop location?"

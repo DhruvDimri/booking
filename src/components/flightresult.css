@@ -1,90 +1,106 @@
-.resultContainer{
+.resultContainer {
+  width: 100%;
+  max-width: 850px;
+  margin: 35px auto;
+}
+.resultCont1 {
+  border: 2px solid black;
+  width: 100%;
+  margin: 25px auto;
+  padding-bottom: 25px;
+}
+.flexCont {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 0px;
+}
+.air1 {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 600;
+  background-color: rgb(185, 174, 174);
+  margin-bottom: 0px;
+}
+.flexCont1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  font-size: 20px;
+  background-color: white;
+}
+.time {
+  padding: 15px 20px;
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.price {
+  width: 100%;
+  max-width: 50%;
+  border-left: 1px solid black;
+}
+.icons {
+  text-align: end;
+  padding-top: 5px;
+}
+.bi-backpack2-fill {
+  margin-right: 5px;
+  color: green;
+}
+.bi-suitcase-lg-fill {
+  margin: 0 5px;
+  color: chocolate;
+}
+.bi-suitcase2-fill {
+  margin-right: 15px;
+  color: darkred;
+}
+.details {
+  max-width: 270px;
+  width: 100%;
+  margin: 5px auto 0 68px;
+  color: blue;
+  border: 1.5px solid blue;
+  border-radius: 5px;
+  padding: 3px 0;
+}
+.carryBag {
+  font-size: 15px;
+  text-align: end;
+  margin-right: 15px;
+}
+.charge {
+  margin: 0 15px;
+  text-align: end;
+  font-weight: 700;
+  font-size: 22px;
+}
+.taxes {
+  margin: 0 15px;
+  text-align: end;
+  font-size: 13px;
+}
+
+/* @media (max-width: 855px) {
+    .resultCont1{
+        max-width: 100%;
+        margin: 20px 5px !important;
+    }
+} */
+@media (max-width: 690px) {
+  .flexCont1 {
+    flex-wrap: wrap;
+  }
+  .details{
     width: 100%;
-    max-width: 850px;
-    margin: 35px auto;
-}
-.resultCont1{
-    border: 2px solid black;
-    width: 100%;
-    height: 350px;
-    margin: 25px auto;
-}
-.flexCont{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 10px 15px;
-    font-weight: 500;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 0px;
-}
-.air1{
-    text-align: center;
-    font-size: 37px;
-    font-weight: 600;
-    background-color: rgb(185, 174, 174);
-    margin-bottom: 0px;
-}
-.flexCont1{
-    display: flex;
-    /* justify-content: space-evenly; */
-    font-size: 20px;
-    background-color: white;
-    
-}
-.time{
-    
-    padding: 15px 20px;
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-.price{
-   
-    width: 50%;
-    border-left: 1px solid black;
-}
-.icons{
-    text-align: end;
-    padding-top: 5px;
-}
-.bi-backpack2-fill{
-    margin-right: 5px;
-    color: green;
-}
-.bi-suitcase-lg-fill{
-    margin: 0 5px;
-    color: chocolate;
-}
-.bi-suitcase2-fill{
-    margin-right: 15px;
-    color: darkred;
-}
-.details{
-    width: 270px;
-    margin: 5px auto 0  68px;
-    color: blue;
-    border: 1.5px solid blue;
-    border-radius: 5px;
-    padding: 3px 0;
-    
-}
-.carryBag{
-    font-size: 15px;
-    text-align: end;
-    margin-right: 15px;
-}
-.charge{
-    margin: 0 15px ;
-    text-align: end;
-    font-weight: 700;
-    font-size: 22px;
-}
-.taxes{
-    margin: 0 15px;
-    text-align: end;
-    font-size: 13px;
+    margin: 0 ;
+  }
 }
