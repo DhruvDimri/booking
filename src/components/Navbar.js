@@ -6,6 +6,10 @@ import { Link, useLocation } from "react-router-dom";
 const Navbar = () => {
 const location = useLocation();
 
+const handleUI= ()=>{
+  alert('This is just for U.I representation');
+}
+
   return (
     <div className="navContainer">
       <div className="navContainer1">
@@ -13,8 +17,8 @@ const location = useLocation();
             <span>Booking.com</span>
             </div>
             { location.pathname === "/" && <div className="navButtons">
-            <button>Register</button>
-            <button>Sign in</button>
+            <button onClick={handleUI}>Register</button>
+            <button onClick={handleUI}>Sign in</button>
             </div>}
       </div>
 
